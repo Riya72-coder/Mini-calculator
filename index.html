@@ -1,1 +1,21 @@
-<p>hello World</p>
+First = input("enter first number : ")
+Operator = input("enter operator (+,-,*,/,%) : ")
+Second = input("enter second number : ")
+
+First = int(First)
+Second = int(Second)
+
+if Operator == '+' :
+    print(First + Second)
+elif Operator == '-' :
+    print(First - Second)
+elif Operator == '*' :
+    print(First * Second)
+elif Operator == '/' :
+    print(First / Second)
+elif Operator == '%' :
+    print(First % Second)
+else:
+    print("Invalid Operation")
+
+print("Thank You")
